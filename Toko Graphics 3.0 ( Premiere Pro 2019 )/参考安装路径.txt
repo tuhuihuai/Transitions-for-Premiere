@@ -1,0 +1,9 @@
+Pr预设的 .Mogrt 文件安装使用方法：
+
+2019或更高版本的位置：
+
+Win：C:\Users\<你电脑用户名>\AppData\Roaming\Adobe\Common\Motion Graphics Templates
+
+Mac：~/资源库/Application Support/Adobe/Common/ Motion Graphics Templates
+
+然后打开Premiere软件，在【窗口】-【基本图形】里即可找到预设
