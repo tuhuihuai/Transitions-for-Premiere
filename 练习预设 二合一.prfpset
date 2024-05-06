@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PremiereData Version="3">
+	<Tree ObjectRef="1"/>
+	<Tree ObjectID="1" ClassID="177f2841-dd5b-43bd-9d9a-79e231bd47dd" Version="1">
+		<RootBin ObjectRef="2"/>
+		<Node Version="1">
+		</Node>
+	</Tree>
+	<BinTreeItem ObjectID="2" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Node Version="1">
+			</Node>
+			<Name>Root</Name>
+		</TreeItemBase>
+		<Sorted>false</Sorted>
+		<Expanded>false</Expanded>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="3"/>
+		</Items>
+	</BinTreeItem>
+	<BinTreeItem ObjectID="3" ClassID="5e0f46fa-384f-4c09-bc53-0b8e2b7005b5" Version="4">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="4"/>
+			<Node Version="1">
+				<Properties Version="1">
+					<HandlerEffects.EffectItemTree.PresetsBin>1</HandlerEffects.EffectItemTree.PresetsBin>
+				</Properties>
+			</Node>
+			<Name>预设</Name>
+		</TreeItemBase>
+		<Sorted>true</Sorted>
+		<Expanded>true</Expanded>
+		<Items Version="1">
+			<Item Index="0" ObjectRef="5"/>
+			<Item Index="1" ObjectRef="49"/>
+		</Items>
+	</BinTreeItem>
+	<EffectBinItem ObjectID="4" ClassID="5f513d71-0018-4405-a10b-bf5597f99960" Version="1">
+		<Flavor>1</Flavor>
+	</EffectBinItem>
+	<TreeItem ObjectID="5" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="6"/>
+			<Node Version="1">
+			</Node>
+			<Name>横切电视故障效果 What-uncle</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="6" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="7"/>
+			<FilterPreset Index="1" ObjectRef="15"/>
+			<FilterPreset Index="2" ObjectRef="21"/>
+			<FilterPreset Index="3" ObjectRef="28"/>
+			<FilterPreset Index="4" ObjectRef="44"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="7" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="8"/>
+		<FilterMatchName>AE.ADBE Noise HLS</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="8" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Noise HLS</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="9"/>
+				<Param Index="1" ObjectRef="10"/>
+				<Param Index="2" ObjectRef="11"/>
+				<Param Index="3" ObjectRef="12"/>
+				<Param Index="4" ObjectRef="13"/>
+				<Param Index="5" ObjectRef="14"/>
+			</Params>
+			<DisplayName>杂色 HLS</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="9" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>7</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,2,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>2</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>杂色</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="10" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,100.,0,0,416.6666666670456,0.16666666666666666,-416.66666666625611,0.16666666666666666;914579527680000,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>8</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>1000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>100.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>色相</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="11" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,100.,0,0,416.6666666670456,0.16666666666666666,-416.66666666625611,0.16666666666666666;914579527680000,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>8</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>1000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>100.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>亮度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="12" ClassID="a4ff2d6e-7ac2-44f8-9d52-17d9ca50e542" Version="9">
+		<Node Version="1">
+			<Properties Version="1">
+				<ECP.Slider.Expanded>true</ECP.Slider.Expanded>
+			</Properties>
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,100.,0,0,416.6666666670456,0.16666666666666666,-416.66666666625611,0.16666666666666666;914579527680000,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>8</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>1000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>100.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>饱和度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="13" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,10.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>10.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>4.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>10.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>颗粒大小</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="14" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>杂色相位</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="15" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="16"/>
+		<FilterMatchName>AE.ADBE Venetian Blinds</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="16" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Venetian Blinds</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="17"/>
+				<Param Index="1" ObjectRef="18"/>
+				<Param Index="2" ObjectRef="19"/>
+				<Param Index="3" ObjectRef="20"/>
+			</Params>
+			<DisplayName>百叶窗</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="17" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.33333333333333331,250.00000000022737,0.16666666666666666;914518563840000,50.,0,0,208.3333333335228,0.16666666666666666,-208.33333398248519,0.16666666666666666;914579527679810,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,50.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>过渡完成</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="18" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,180.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>方向</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="19" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,10.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32000.</UpperBound>
+		<LowerBound>1.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>127.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>10.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>宽度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="20" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>羽化</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="21" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="22"/>
+		<FilterMatchName>AE.ADBE Block Dissolve</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="22" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Block Dissolve</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="23"/>
+				<Param Index="1" ObjectRef="24"/>
+				<Param Index="2" ObjectRef="25"/>
+				<Param Index="3" ObjectRef="26"/>
+				<Param Index="4" ObjectRef="27"/>
+			</Params>
+			<DisplayName>块溶解</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="23" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,50.,0,0,208.3333333335228,0.16666666666666666,-208.33333398248519,0.16666666666666666;914579527679810,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>过渡完成</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="24" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,1.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,200.,0,0,829.16666666742083,0.16666666666666666,-829.16666925029097,0.16666666666666666;914579527679810,1.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32000.</UpperBound>
+		<LowerBound>1.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>127.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>200.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>块宽度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="25" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,1.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,5.,0,0,16.666666666681824,0.16666666666666666,-16.666666718598815,0.16666666666666666;914579527679810,1.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32000.</UpperBound>
+		<LowerBound>1.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>127.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>5.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>块高度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="26" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>羽化</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="27" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name></Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="28" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="29"/>
+		<FilterMatchName>AE.ADBE Turbulent Displace</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="29" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Turbulent Displace</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="30"/>
+				<Param Index="1" ObjectRef="31"/>
+				<Param Index="2" ObjectRef="32"/>
+				<Param Index="3" ObjectRef="33"/>
+				<Param Index="4" ObjectRef="34"/>
+				<Param Index="5" ObjectRef="35"/>
+				<Param Index="6" ObjectRef="36"/>
+				<Param Index="7" ObjectRef="37"/>
+				<Param Index="8" ObjectRef="38"/>
+				<Param Index="9" ObjectRef="39"/>
+				<Param Index="10" ObjectRef="40"/>
+				<Param Index="11" ObjectRef="41"/>
+				<Param Index="12" ObjectRef="42"/>
+				<Param Index="13" ObjectRef="43"/>
+			</Params>
+			<DisplayName>紊乱置换</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="30" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>7</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,9,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>10</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>置换</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="31" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,50.,0,0,208.3333333335228,0.16666666666666666,-208.33333398248519,0.16666666666666666;914579527679810,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,50.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>10000.</UpperBound>
+		<LowerBound>-10000.</LowerBound>
+		<LowerUIBound>0.</LowerUIBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>100.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>数量</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="32" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>1000.</UpperBound>
+		<LowerBound>2.</LowerBound>
+		<LowerUIBound>5.</LowerUIBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>400.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>100.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>大小</Name>
+	</VideoComponentParam>
+	<PointComponentParam ObjectID="33" ClassID="ca81d347-309b-44d2-acc7-1c572efb973c" Version="3">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>6</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.5:0.5,0,0,0,0,0,0,5,4,0,0,0,0</StartKeyframe>
+		<UnitsString></UnitsString>
+		<CurrentValue>0,0</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>偏移（湍流）</Name>
+	</PointComponentParam>
+	<VideoComponentParam ObjectID="34" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,1.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>10.</UpperBound>
+		<LowerBound>1.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>5.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>复杂度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="35" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>演化</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="36" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>11</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>false</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>7</ParameterID>
+		<Name>演化选项</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="37" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>8</ParameterID>
+		<Name> </Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="38" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>1</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,1,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>88</UpperBound>
+		<LowerBound>1</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>30</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>9</ParameterID>
+		<Name>循环（旋转次数）</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="39" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>1</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>100000</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>1000</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>10</ParameterID>
+		<Name>随机植入</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="40" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>12</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>false</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>11</ParameterID>
+		<Name>随机植入</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="41" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>7</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,2,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>16</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>12</ParameterID>
+		<Name>固定</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="42" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>13</ParameterID>
+		<Name> </Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="43" ClassID="6e02e8bb-2569-46b2-8ab1-4ab11c43e9c8" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>true</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>7</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>1</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>14</ParameterID>
+		<Name>消除锯齿最佳品质</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="44" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="45"/>
+		<FilterMatchName>AE.ADBE Tint</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="45" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Tint</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="46"/>
+				<Param Index="1" ObjectRef="47"/>
+				<Param Index="2" ObjectRef="48"/>
+			</Params>
+			<DisplayName>色彩</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="46" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374966859263901696,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>将黑色映射到</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="47" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374923974183288576,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>将白色映射到</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="48" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes>914457600000000,0.,5,0,0,0.16666666666666666,0,0.33333333333333331;914518563840000,100.,0,0,416.6666666670456,0.16666666666666666,-416.66666796497037,0.16666666666666666;914579527679810,0.,5,0,0,0.33333333333333331,0,0.16666666666666666;</Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>true</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,100.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>100.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>着色量</Name>
+	</VideoComponentParam>
+	<TreeItem ObjectID="49" ClassID="025f59ac-1f29-42c0-9897-ada1059bd547" Version="3">
+		<TreeItemBase Version="4">
+			<Locked>false</Locked>
+			<Data ObjectRef="50"/>
+			<Node Version="1">
+			</Node>
+			<Name>转场发光效果 What-uncle</Name>
+		</TreeItemBase>
+	</TreeItem>
+	<FilterPresetItem ObjectID="50" ClassID="e56c9ba0-91cb-4f21-9174-c1b52448c6c9" Version="2">
+		<FilterPresets Version="1">
+			<FilterPreset Index="0" ObjectRef="51"/>
+			<FilterPreset Index="1" ObjectRef="59"/>
+			<FilterPreset Index="2" ObjectRef="67"/>
+			<FilterPreset Index="3" ObjectRef="75"/>
+		</FilterPresets>
+		<EffectItem Version="1">
+			<EffectIsShorcut>false</EffectIsShorcut>
+			<EffectFlavor>5</EffectFlavor>
+		</EffectItem>
+	</FilterPresetItem>
+	<FilterPreset ObjectID="51" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="52"/>
+		<FilterMatchName>AE.ADBE Drop Shadow</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="52" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Drop Shadow</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="53"/>
+				<Param Index="1" ObjectRef="54"/>
+				<Param Index="2" ObjectRef="55"/>
+				<Param Index="3" ObjectRef="56"/>
+				<Param Index="4" ObjectRef="57"/>
+				<Param Index="5" ObjectRef="58"/>
+			</Params>
+			<DisplayName>投影</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="53" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374966855136706560,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>阴影颜色</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="54" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,127.5,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>255.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>不透明度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="55" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,135.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>方向</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="56" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>4000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>120.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>距离</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="57" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,85.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>30000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>250.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>85.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>柔和度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="58" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>仅阴影</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="59" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="60"/>
+		<FilterMatchName>AE.ADBE Drop Shadow</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="60" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Drop Shadow</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="61"/>
+				<Param Index="1" ObjectRef="62"/>
+				<Param Index="2" ObjectRef="63"/>
+				<Param Index="3" ObjectRef="64"/>
+				<Param Index="4" ObjectRef="65"/>
+				<Param Index="5" ObjectRef="66"/>
+			</Params>
+			<DisplayName>投影</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="61" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374966855136706560,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>阴影颜色</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="62" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,127.5,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>255.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>不透明度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="63" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,135.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>方向</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="64" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>4000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>120.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>距离</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="65" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,85.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>30000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>250.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>85.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>柔和度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="66" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>仅阴影</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="67" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="68"/>
+		<FilterMatchName>AE.ADBE Drop Shadow</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="68" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Drop Shadow</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="69"/>
+				<Param Index="1" ObjectRef="70"/>
+				<Param Index="2" ObjectRef="71"/>
+				<Param Index="3" ObjectRef="72"/>
+				<Param Index="4" ObjectRef="73"/>
+				<Param Index="5" ObjectRef="74"/>
+			</Params>
+			<DisplayName>投影</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="69" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374966855136706560,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>阴影颜色</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="70" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,127.5,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>255.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>不透明度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="71" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,135.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>方向</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="72" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>4000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>120.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>距离</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="73" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,85.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>30000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>250.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>85.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>柔和度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="74" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>仅阴影</Name>
+	</VideoComponentParam>
+	<FilterPreset ObjectID="75" ClassID="ee52a7d2-069e-47f7-aa30-e3e3286b65a3" Version="3">
+		<Node Version="1">
+		</Node>
+		<TransitionDuration>0</TransitionDuration>
+		<Speed>1.</Speed>
+		<AnchorOutPoint>914579527680000</AnchorOutPoint>
+		<AnchorInPoint>914457600000000</AnchorInPoint>
+		<MediaType>228cda18-3625-4d2d-951e-348879e4ed93</MediaType>
+		<Type>0</Type>
+		<Description></Description>
+		<Component ObjectRef="76"/>
+		<FilterMatchName>AE.ADBE Drop Shadow</FilterMatchName>
+	</FilterPreset>
+	<VideoFilterComponent ObjectID="76" ClassID="d10da199-beea-4dd1-b941-ed3a78766d50" Version="7">
+		<VideoFilterType>2</VideoFilterType>
+		<MatchName>AE.ADBE Drop Shadow</MatchName>
+		<Component Version="5">
+			<Node Version="1">
+				<Properties Version="1">
+					<ECP.Filter.Expanded>false</ECP.Filter.Expanded>
+				</Properties>
+			</Node>
+			<ID>0</ID>
+			<InstanceName></InstanceName>
+			<Intrinsic>false</Intrinsic>
+			<Params Version="1">
+				<Param Index="0" ObjectRef="77"/>
+				<Param Index="1" ObjectRef="78"/>
+				<Param Index="2" ObjectRef="79"/>
+				<Param Index="3" ObjectRef="80"/>
+				<Param Index="4" ObjectRef="81"/>
+				<Param Index="5" ObjectRef="82"/>
+			</Params>
+			<DisplayName>投影</DisplayName>
+			<Bypass>false</Bypass>
+		</Component>
+	</VideoFilterComponent>
+	<VideoComponentParam ObjectID="77" ClassID="0fde4e9f-f895-4ba3-b0fe-9a6feafda583" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>5</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,18374966855136706560,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>18446744073709551615</UpperBound>
+		<LowerBound>0</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0</CurrentValue>
+		<ParameterID>1</ParameterID>
+		<Name>阴影颜色</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="78" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,127.5,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>255.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>2</ParameterID>
+		<Name>不透明度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="79" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>3</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,135.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>32767.</UpperBound>
+		<LowerBound>-32768.</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>3</ParameterID>
+		<Name>方向</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="80" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,0.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>4000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>120.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>0.</CurrentValue>
+		<ParameterID>4</ParameterID>
+		<Name>距离</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="81" ClassID="fe47129e-6c94-4fc0-95d5-c056a517aaf3" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>2</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,85.,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>30000.</UpperBound>
+		<LowerBound>0.</LowerBound>
+		<UnitsString></UnitsString>
+		<UpperUIBound>250.</UpperUIBound>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>85.</CurrentValue>
+		<ParameterID>5</ParameterID>
+		<Name>柔和度</Name>
+	</VideoComponentParam>
+	<VideoComponentParam ObjectID="82" ClassID="cc12343e-f113-4d3b-ae05-b287db77d461" Version="9">
+		<Node Version="1">
+		</Node>
+		<Keyframes></Keyframes>
+		<DiscontinuousInterpolate>false</DiscontinuousInterpolate>
+		<IsLocked>false</IsLocked>
+		<ParameterControlType>4</ParameterControlType>
+		<IsTimeVarying>false</IsTimeVarying>
+		<StartKeyframe>-91445760000000000,false,0,0,0,0,0,0</StartKeyframe>
+		<UpperBound>true</UpperBound>
+		<LowerBound>false</LowerBound>
+		<UnitsString></UnitsString>
+		<RangeLocked>false</RangeLocked>
+		<CurrentValue>false</CurrentValue>
+		<ParameterID>6</ParameterID>
+		<Name>仅阴影</Name>
+	</VideoComponentParam>
+</PremiereData>
